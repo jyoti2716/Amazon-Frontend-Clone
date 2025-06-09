@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.nav-bar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.amazonlogo{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.border:hover{
+    border: 1.5px solid white;
+    
+}
+
+/* box2 */
+.loc1{
+    font-size: 1rem;
+    
+}
+.location{
+    display: flex;
+}
+
+.add1{
+    color: #cccccc;
+    margin-left: 15px;
+    font-size: 0.75rem;
+}
+.add2{
+    margin-left: 3.5px;
+    font-size: 1rem;
+}
+.location i{
+    font-size: 1rem;
+}
+/* box3 */
+
+.searchbar{
+    background-color: antiquewhite;
+    display: flex;
+    margin-left: 3px;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+
+}
+.all{
+    background-color: #E6E6E6;
+    color: #0f1111;
+    border: none;
+    width: 40px;
+    color:#7c7979;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+input{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 0;
+    width: 100%;
+
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0f1111;
+    width: 45px;
+    background-color: rgb(250, 203, 72);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.search-icon:hover{
+    background-color: rgb(248, 193, 40);
+}
+.all:hover{
+    background-color: #dbdbdb;
+    color: #0f1111;
+}
+/* Box4 */
+.Hello{
+    font-size: 0.75rem;
+    margin-left: 4px;
+    font-size: 12px;
+}
+.Account{
+    background-color: #0f1111;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+}
+/* box5 */
+.cart{
+    display: flex;
+    align-items: baseline;
+}
+.cart i{
+    font-size: 1.5rem;
+}
+.C{
+    font-size: 14px;
+    font-weight: 700;
+}
+/** Search-panel**/
+.search-panel{
+    background-color: #222f3d;
+    height: 40px;
+    display: flex;
+    
+    align-items: center;
+}
+.All-menu{
+    width: 60px;
+    height: 40px;
+    display: flex;
+    color: white;
+    padding-left: 9px;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.All2{
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+/* Search-Panel Box2 */
+.panel{
+    height: 40px;
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: end;
+}
+.panel2{
+    height: 23px;
+    padding: 8px 9px 8px 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 540;
+}
+
+/* Main box */
+.main_box{
+    height: 300px;
+    background-image:url(Main_box.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+.box1{
+    background-color: #F5F6F6;
+    color: #0f1111;
+    height: 20px;
+    width: 90%;
+    padding: 10px 14px 10px 14px;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.box1 a{
+    color: #007185;
+}
+
+/* shop-section */
+.shop-section{
+    background-color: rgb(248, 241, 235);
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+.same{
+    height: 380px;
+    width: 387px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: #FFFFFF;
+    margin: 15px 10px 15px 10px;
+}
+.heading{
+    width: 100%;
+    height:10%;
+    padding-left: 20px;
+    font-size: 21px;
+    font-weight: 700;
+}
+.img{
+    width: 80%;
+    height: 80%;
+    margin: 10px 10px 10px 10px;
+    background-size: cover;
+}
+.photo{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.img1{
+    height: 100%;
+    width: 100%;
+    margin: 5px 15px 5px 15px;
+    background-size: cover;
+}
+.see-more{
+    width: 100%;
+    height:10%;
+    margin-left: 15px ;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: #007185;
+}
+.sign-in2{
+    height: 130px;
+    width: 100%;
+    border-bottom: 0.5px solid rgb(206, 200, 200);
+    border-top: 0.5px solid rgb(206, 200, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.sign{
+    text-align: center;
+}
+.sign-in-button{
+    width: 218px;
+    height: 30px;
+    background-color: rgb(250, 203, 72);
+    border: orange;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.border2:hover{
+    border: 2px orange solid;
+}
