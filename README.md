@@ -42,3 +42,6 @@ A simple static clone of the Amazon homepage built using HTML and CSS. This proj
 ## 🙌 Acknowledgements
 
 This project is for educational purposes and UI practice only. All images are used from public sources.
+
+
+🔗 **Live Demo:** [Click here](https://jyoti2716.github.io/Amazon-Frontend-Clone/)
